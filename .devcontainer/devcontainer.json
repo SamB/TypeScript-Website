@@ -1,7 +1,10 @@
 {
   "name": "TypeScript Website codespace",
   "dockerFile": "Dockerfile",
-
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {}
+  },
+  
   // Set *default* container specific settings.json values on container create.
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
